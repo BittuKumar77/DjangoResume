@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %} Resume {% endblock title %}
+
+{% block content %}
+    <center><h1>Bittu's Resume </h1></center>
+    <nav>
+        <header>
+            <h3><a href="{% url "data:logout" %}">Logout</a></h3>
+        </header>
+    </nav>
+<h2>Qualification</h2>
+<ul>
+    <li>Degree:Btech</li>
+    <li>Stream:css</li>
+    <li>CGPA:9</li>
+    <li>YOP:2022</li>
+
+</ul>
+{% endblock content %}
